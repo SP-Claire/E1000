@@ -1,1 +1,38 @@
 theme: jekyll-theme-merlot
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Claire's Webpage 2.0</title>
+</head>
+<body><pre>
+<h1>Digital Fabrication & Prototyping</h1>
+<h3>  Hi! 
+    Welcome to the first webpage I created using sublime text.</h3><h2>About Me</h2><table border="1">
+ <tr>
+	<th><img src="https://raw.githubusercontent.com/SP-Claire/E1000/master/Picture.jpg" width="100"length="200"></th>
+	<th>  </th>
+	<th>[My name is Claire from EL/EP1000/FT/01.]
+[I live in Singapore.]
+[Telegram Username: Claire]</th>
+<th>  </th>
+</tr>
+</table><hr><h2>What This Page Is About</h2><p>This page is for documenting the whole process of my project for this elective such as topics learnt, the progress, materials and 
+information etc. This elective module, Digital Fabrication & Prototyping, introduces basic digital fabrication technologies like CAD, 
+laser cutting, 3D printing, electronics & programming.</p><hr><h2>Topics We Will Be Covering</h2><p><ul>
+<li>Introduction</li>
+<li>Fablab Safety</li>
+<li>Tools</li>
+<li>Project Management</li>
+<li>Web Development</li>
+<li>Personal Website</li>
+<li>Computer Aided Design</li>
+<li>3D Printing</li>
+<li>Computer Controlled Cutting</li>
+<li>Embedded Programming</li>
+</ul>
+<hr></p><h1>What is Github?</h1><p>Git is the version control tech of choice for basically everybody right now, from developers to designers. GitHub is the social code-hosting platform that’s currently used more than any other. 
+It’s a place where you can play and experiment. It’s a place where you can find (and play around with) the most incredible open-source information, emerging technologies, features, and designs. 
+It’s a place to learn and it’s a place to get involved. You can keep code there for work or for school, and you can grab some sweet code that you want to explore further. 
+You can even host websites for free directly from your repository!</p>
+</body></pre>
+</html>
