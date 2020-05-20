@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>C Webpage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="xb">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="index-course_schedule.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COURSE SCHEDULE</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">TOPICS <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index-assignments.html" class="w3-bar-item w3-button">Weekly Assignments</a>
+        <a href="index-fablab_safety.html" class="w3-bar-item w3-button">Fablab Safety</a>
+        <a href="index-project_management.html" class="w3-bar-item w3-button">Project Management</a>
+        <a href="index-web_development.html" class="w3-bar-item w3-button">Web Development</a>
+        <a href="index-computer_aided_design.html" class="w3-bar-item w3-button">Computer Aided Design</a>
+        <a href="index-embedded_programming.html" class="w3-bar-item w3-button">Embedded Programming</a>
+        <a href="index-3d_printing.html" class="w3-bar-item w3-button">3D Printing</a>
+        <a href="index-laser_cutting.html" class="w3-bar-item w3-button">Laser Cutting</a>
+        <a href="index-final_project.html" class="w3-bar-item w3-button">Final Project</a>
+      </div>
+    </div>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="index-course_schedule.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COURSE SCHEDULE</a>
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="index-topics.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOPICS</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+<!-- The White Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="assignments">
+  <h2 class="w3-wide">ASSIGNMENTS</h2>
+  <p class="w3-opacity"><i>Weekly Assignments</i></p>
+<br>
+  <ul class="w3-ul w3-border w3-white w3-text-black">
+      <li class="w3-padding"><a href="#week1">Week 1</a></li>
+      <li class="w3-padding"><a href="#week2">Week 2</a></li>
+      <li class="w3-padding"><a href="#week3">Week 3</a></li>
+      <li class="w3-padding"><a href="#week4">Week 4</a></li>
+      <li class="w3-padding"><a href="#week5">Week 5</a></li>
+  </ul>
+</div>
+
+<!-- The Black Section -->
+<div class="w3-black" id="week1">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">WEEK 1</h2>
+    <p class="w3-opacity w3-center"><i>Safety & Tools</i></p><br>
+    <h3 class="w3-wide w3-center">Assignment #1</h3>
+    <p class="w3-center"><b>What kind of common tools do I need in my tool-kit?</b></p>
+<br>
+  <div class="flexcontainer">
+    <div>
+      <img style="float: right;" src="Images/Toolkit.jpg" width="40%">
+    </div>
+    <div>
+     <ol>
+        <li>Claw Hammer</li>
+        <li>Manual Screwwdriver Set</li>
+        <li>Cordless Drill</li>
+        <li>Level (eg. laser level)</li>
+        <li>Needle-nose Pliers</li>
+        <li>Tongue-and-Groove Pliers</li>
+        <li>Allen Wrench Set</li>
+        <li>Putty Knife</li>
+        <li>Staple Gun</li>
+        <li>Digital Tape Measure</li>
+      </ol>
+    </div>
+  </div>
+<br>
+<br>
+    <h3 class="w3-wide w3-center">Assignment #2</h3>
+    <p class="w3-center"><b>Install Fusion 360 & Text Editor</b></p>
+<br>
+    <img src="Images/Fusion360_Icon.png" width="50%"><img src="Images/Sublimetext.png" width="50%">
+<br>
+    <div class="flexcontainer" style="text-align: center;">
+      <div class="row">
+      <div class="col-xs-6"><h4><b>Fusion 360</b></h4>
+        <p>This is a CADD (Computer Aided Design & Drafting) tool which allows us to digitally design, envision and simulate our project.</p>
+      </div>
+      <div class="col-xs-6"><h4><b>Sublime Text</b></h4>
+        <p>A text editor is a type of computer program that edits plain text. I have chosen to use Sublime Text, however, there are other text editors like Atom, Brackets, Notepad++ etc.</p>
+      </div>
+    </div>
+</div></div></div>
+
+<!-- The White Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="week2">
+  <h2 class="w3-wide w3-center">WEEK 2</h2>
+    <p class="w3-opacity w3-center"><i>HTML</i></p><br>
+    <h3 class="w3-wide w3-center">Assignment #1</h3>
+    <p class="w3-center"><b>Use a text editor to create a simple webpage with the specifications below.</b></p>
+    <ul class="w3-justify">
+      <li>Headings using h1 and h2</li>
+      <li>Paragraphs of text, introducing my website and welcoming my readers with a short message</li>
+      <li>A table of 2 colums, where:
+        <dd>- The left column showing a properly sized “selfie”</dd>
+        <dd>- The right column showing my name, class, telegram ID and location (not specific) and a little bit “about” myself</dd></li>
+      <li>A list of topics on what we will cover in this module</li>
+      <li>Each section must have a proper header</li>
+    </ul>
+<br>
+    <p class="w3-center">So this was my first webpage I made before this current one you're reading. It was pretty simple without any style or designs yet.</p><br>
+    <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="Images/HTML_Page.png" target="_blank">
+              <img src="Images/HTML_Page.png" width="100%">
+              <div class="caption">
+                <p>HTML Website (Click to enlarge)</p>
+              </div>
+            </a>
+          </div>
+        </div>
+    <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="Images/HTML_TextEditor.png" target="_blank">
+              <img src="Images/HTML_TextEditor.png" width="100%">
+              <div class="caption">
+                <p>HTML Text Editor (Click to enlarge)</p>
+              </div>
+            </a>
+          </div>
+        </div>
+</div></div></div>
+
+<!-- The Black Section -->
+<div class="w3-black" id="week3">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">WEEK 3</h2>
+    <p class="w3-opacity w3-center"><i>Website Development</i></p><br>
+    <h3 class="w3-wide w3-center">Assignment #1</h3>
+    <p class="w3-center"><b>Improving the look of the website</b></p>
+<br>
+
+</div></div>
+
+<!-- The White Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="week4">
+  <h2 class="w3-wide w3-center">WEEK 4</h2>
+    <p class="w3-opacity w3-center"><i>Computer Aid Design: Fusion 360</i></p><br>
+    <h3 class="w3-wide w3-center">Assignment</h3>
+    <p class="w3-center"><b>Complete the following exercises. Treat each exercise as a new drawing and component.</b></p>
+    <div class="w3-row w3-padding-32">
+          <div class="w3-third">
+            <p>Assignment 1</p>
+            <img src="Images/Fusion360_Assignment1.png" class="w3-round w3-margin-bottom" alt="Assignment 1" style="width:80%">
+          </div>
+          <div class="w3-third">
+            <p>Assignment 2</p>
+            <img src="Images/Fusion360_Assignment2.png" class="w3-round w3-margin-bottom" alt="Assignment 2" style="width:80%">
+          </div>
+          <div class="w3-third">
+            <p>Assignment 3</p>
+            <img src="Images/Fusion360_Assignment3.png" class="w3-round" alt="Assignment 3" style="width:80%">
+          </div>
+        </div>
+        <ul class="w3-ul w3-border w3-white w3-text-black">
+<center><li class="w3-padding"><a href="file:///C:\Users\llxcl\Desktop\School Notes\Year 2\DF&P\Fusion360\Practice1.f3d">Assignment 1</a></li>
+        <li class="w3-padding"><a href="file:///C:\Users\llxcl\Desktop\School Notes\Year 2\DF&P\Fusion360\Practice2.f3d">Assignment 2</a></li>
+        <li class="w3-padding"><a href="file:///C:\Users\llxcl\Desktop\School Notes\Year 2\DF&P\Fusion360\Practice3.f3d">Assignment 3</a></li>
+</center></ul>
+
+</div>
+
+<!-- The Black Section -->
+<div class="w3-black" id="week5">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">WEEK 5</h2>
+    <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+</div>
+
+<br>
+<br>
+<br>
+  <center><p class="w3-opacity"><i>To be updated.</i></p></center>
+
+</body>
+</html>
